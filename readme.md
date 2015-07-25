@@ -6,6 +6,8 @@
 npm install react-geojson-cluster
 ```
 
+[view demo](http://paulserraino.com/react-geojson-cluster)
+
 ## example
 ```js
 import React from 'react';
