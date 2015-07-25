@@ -1,0 +1,31 @@
+{
+  "name": "react-geojson-cluster",
+  "version": "0.0.0",
+  "description": "react geojson cluster component",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/browserify/bin/cmd.js -t [ babelify --optional es7.objectRestSpread ] index.js > example/bundle.js",
+    "start": "./node_modules/ecstatic/lib/ecstatic.js -p 8000 example",
+    "example": "npm run build && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geojson",
+    "react",
+    "cluster",
+    "leaflet"
+  ],
+  "author": "Paul Serraino",
+  "license": "MIT",
+  "peerDependencies": {
+    "leaflet": "^0.7.3",
+    "react": "^0.13.3"
+  },
+  "dependencies": {
+    "leaflet-geojson-cluster": "0.0.1",
+    "react-leaflet": "^0.6.2"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3"
+  }
+}
