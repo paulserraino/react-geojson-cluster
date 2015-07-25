@@ -1,5 +1,7 @@
 # react-geojson-cluster
 
+[![NPM](https://nodei.co/npm/react-geojson-cluster.png)](https://nodei.co/npm/react-geojson-cluster/)
+
 ```
 npm install react-geojson-cluster
 ```
