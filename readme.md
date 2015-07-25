@@ -1,3 +1,0 @@
-# react-geojson-cluster
-
-#WIP
