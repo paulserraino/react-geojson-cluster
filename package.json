@@ -22,7 +22,7 @@
     "react": "^0.13.3"
   },
   "dependencies": {
-    "leaflet-geojson-cluster": "0.0.1",
+    "leaflet-geojson-cluster": "0.0.4",
     "react-leaflet": "^0.6.2"
   },
   "devDependencies": {
