@@ -1,6 +1,6 @@
 {
   "name": "react-geojson-cluster",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "react geojson cluster component",
   "main": "index.js",
   "scripts": {
