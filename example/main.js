@@ -4,8 +4,6 @@ import { GeoJsonCluster } from'../';
 import toGeoJSON from './to-geojson';
 import request from 'superagent';
 
-import geojson from './example-geojson.js';
-
 class App extends React.Component {
 
   constructor (props) {
