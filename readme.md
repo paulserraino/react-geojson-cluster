@@ -3,7 +3,7 @@
 [![NPM](https://nodei.co/npm/react-leaflet-geojson-cluster.png)](https://nodei.co/npm/react-geojson-cluster/)
 
 ```
-npm install react-geojson-cluster
+npm install react-leaflet-geojson-cluster
 ```
 
 [view demo](http://paulserraino.com/react-geojson-cluster)
