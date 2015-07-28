@@ -1,6 +1,7 @@
 {
   "name": "react-leaflet-geojson-cluster",
-  "version": "0.0.6",
+  "repository": "https://github.com/paulserraino/react-geojson-cluster",
+  "version": "0.0.7",
   "description": "react geojson cluster component",
   "main": "index.js",
   "scripts": {
