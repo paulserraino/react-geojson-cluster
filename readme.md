@@ -11,8 +11,8 @@ npm install react-leaflet-geojson-cluster
 ## example
 ```js
 import React from 'react';
-import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
-import { GeoJsonCluster } from'react-geojson-cluster';
+import { Map, TileLayer } from 'react-leaflet';
+import GeoJsonCluster from 'react-leaflet-geojson-cluster';
 
 const map = <Map id="map" center={[30.25, -97.75]} zoom={13}>
   <TileLayer
