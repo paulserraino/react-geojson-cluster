@@ -19,5 +19,5 @@ export class GeoJsonCluster extends PopupContainer {
 
 GeoJsonCluster.propTypes = {
   data: PropTypes.object.isRequired,
-  layerGroup: PropTypes.object.isOptional,
+  layerGroup: PropTypes.object,
 };
