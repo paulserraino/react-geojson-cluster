@@ -11,12 +11,13 @@ export class GeoJsonCluster extends PopupContainer {
 
   componentDidUpdate() {
     const { data, map, ...props } = this.props;
-    map.removeLayer(this.leafletElement);
+    (this.props.layerGroup || map).removeLayer(this.leafletElement);
     this.leafletElement = cluster(data, props);
-    map.addLayer(this.leafletElement);
+    (this.props.layerGroup || map).addLayer(this.leafletElement);
   }
 }
 
 GeoJsonCluster.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
+  layerGroup: PropTypes.object.isOptional,
 };
