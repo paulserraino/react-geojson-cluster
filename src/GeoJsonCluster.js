@@ -1,8 +1,8 @@
 import { PropTypes } from 'react';
-import { PopupContainer } from 'react-leaflet';
+import { BaseTileLayer } from 'react-leaflet';
 import cluster from 'leaflet-geojson-cluster';
 
-export class GeoJsonCluster extends PopupContainer {
+export class GeoJsonCluster extends BaseTileLayer {
   componentWillMount() {
     super.componentWillMount();
     const { data, map, ...props } = this.props;
